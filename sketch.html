@@ -6,15 +6,33 @@
         <meta name="viewport" content="width = device-width, initial-scale = 1">
         <title>Etch-A-Sketch</title>
         <link rel="stylesheet" href="sketch.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;600;800&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <button class="generate">Generate my Etch-a-Sketch!</button>
+        <div class="full">
+            <div class="left">
 
-        <div class="outer-box">
-        <div id="container"></div>
+                <header>
+                <h1>Etch-a-Sketch</h1>
+                 </header>
+
+                <div class="btn-container">
+                     <button class="generate">Generate my Etch-a-Sketch!</button>
+                </div>
+
+             </div>
+
+            <div class="right">
+                <div class="outer-box">
+                <div id="container"></div>
+                </div>
+            </div>
         </div>
-
         <script src="sketch.js"></script>
     </body>
 </html>

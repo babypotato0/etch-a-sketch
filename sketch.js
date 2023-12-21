@@ -23,7 +23,7 @@ function generateNew() {
 
 function createSquares(squareNumber) {
     const container = document.querySelector("#container");
-    const containerSize = 480;
+    const containerSize = 520;
     const squareSize = containerSize / squareNumber;
 
     for(let i = 1; i <= squareNumber; i++) {
