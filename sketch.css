@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: #F8F3EA;
 }
 
@@ -20,14 +21,14 @@ body {
 
 .right {
     margin: auto;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 header {
     margin: 25px auto;
     color: #0B1957;
     font-family: 'Silkscreen', sans-serif;
-    font-size: 42px;
+    font-size: 44px;
     line-height: 72px;
     text-align: left;
 }
